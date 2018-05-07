@@ -1,5 +1,3 @@
-#!/bin/bash
-
 pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
 mkdir -p $(jupyter --data-dir)/nbextensions
